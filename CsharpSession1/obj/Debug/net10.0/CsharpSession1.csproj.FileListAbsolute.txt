@@ -1,0 +1,14 @@
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/bin/Debug/net10.0/CsharpSession1
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/bin/Debug/net10.0/CsharpSession1.deps.json
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/bin/Debug/net10.0/CsharpSession1.runtimeconfig.json
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/bin/Debug/net10.0/CsharpSession1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/bin/Debug/net10.0/CsharpSession1.pdb
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.AssemblyInfoInputs.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.AssemblyInfo.cs
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.csproj.CoreCompileInputs.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/refint/CsharpSession1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.pdb
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.genruntimeconfig.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/ref/CsharpSession1.dll
