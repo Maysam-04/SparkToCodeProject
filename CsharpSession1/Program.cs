@@ -69,32 +69,31 @@ else
 }*/
 //////////////////////////////////////////////////////////
 
-Console.WriteLine("Welcome to main menu:");
-Console.WriteLine("1. Deposite");
-Console.WriteLine("2. Withdraw");
-Console.WriteLine("3. Balance check");
+//Console.WriteLine("Welcome to main menu:");
+//Console.WriteLine("1. Deposite");
+//Console.WriteLine("2. Withdraw");
+//Console.WriteLine("3. Balance check");
 
-Console.WriteLine("  Please choose an Option:  ");
-int Option = int.Parse(Console.ReadLine());
+//Console.WriteLine("  Please choose an Option:  ");
+//int Option = int.Parse(Console.ReadLine());
 
-switch (Option)
-{
-    case 1:
-       Console.WriteLine("Deposited");
-        break;
-    case 2:
-        Console.WriteLine("Withdrawed");
-        break;
-    case 3:
-        Console.WriteLine(" Your Balance =  ");
-        break;
+//switch (Option)
+//{
+     //case 1:
+       //Console.WriteLine("Deposited");
+        //break;
+      //case 2:
+        //Console.WriteLine("Withdrawed");
+        //break;
+    //case 3:
+      // Console.WriteLine(" Your Balance =  ");
+       // break;
     
-        default:
-           System. Console.WriteLine( " Please  choose a correct Option");
-            break;
+       // default:
+          // System. Console.WriteLine( " Please  choose a correct Option");
+           // break;
 }
     ///////////////////////////////////////////////////////////////////////
 
 
     }
-}

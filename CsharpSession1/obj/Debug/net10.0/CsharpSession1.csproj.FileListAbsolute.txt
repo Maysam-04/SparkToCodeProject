@@ -12,3 +12,4 @@
 /Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.pdb
 /Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.genruntimeconfig.cache
 /Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/ref/CsharpSession1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/CsharpSession1/obj/Debug/net10.0/CsharpSession1.sourcelink.json
