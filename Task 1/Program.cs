@@ -15,7 +15,7 @@ class Program
         Console.Write(" Student: " + Student);*/
          
        //Task2:  Rectangle Calculator
-        Console.WriteLine("Enter the Lenght of Rectangle:");
+       /* Console.WriteLine("Enter the Lenght of Rectangle:");
         int length = int.Parse(Console.ReadLine());
         
         Console.WriteLine("Enter the Width of Rectangle:");
@@ -24,8 +24,23 @@ class Program
         int Area = length * Width;
         int Perimeter = 2* (length +Width);
         
-        Console.WriteLine("The area is: " +Area + " The perimeter is: " + Perimeter);
+        Console.WriteLine("The area is: " +Area + " The perimeter is: " + Perimeter);*/
         
+       //Task 3:Even or Odd Checker
+      Console.WriteLine("Enter a num:"); 
+      int num = int.Parse(Console.ReadLine());
+      if (num % 2 == 0)
+      {
+       Console.WriteLine("It is Even");
+      }
+      else if  (num % 3 == 0)
+      {
+       Console.WriteLine("It is Odd");
+      }
+      else
+      {
+       Console.WriteLine("It is neither Even nor Odd");
+      }
        
        
        
