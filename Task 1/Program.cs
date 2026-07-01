@@ -27,7 +27,7 @@ class Program
         Console.WriteLine("The area is: " +Area + " The perimeter is: " + Perimeter);*/
         
        //Task 3:Even or Odd Checker
-      Console.WriteLine("Enter a num:"); 
+      /*Console.WriteLine("Enter a num:"); 
       int num = int.Parse(Console.ReadLine());
       if (num % 2 == 0)
       {
@@ -40,8 +40,9 @@ class Program
       else
       {
        Console.WriteLine("It is neither Even nor Odd");
-      }
+      }*/
        
+       //Task 4:Voting Eligibility
        
        
        
