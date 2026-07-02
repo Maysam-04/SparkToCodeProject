@@ -60,7 +60,7 @@ class Program
        }*/
        
        // Task 5:Grade Letter Lookup
-       Console.WriteLine("Enter a grade:");
+       /*Console.WriteLine("Enter a grade:");
        char grade = char.Parse(Console.ReadLine());
 
        switch (grade)
@@ -83,8 +83,26 @@ class Program
         default:
          Console.WriteLine("invalid grade");
            break;
-       }
+       }*/
+        // Task 6:Temperature Converter
+        Console.WriteLine("Enter Temp in Celsius:");
+        float C = float.Parse(Console.ReadLine());
+        
+        float F = C * 9 / 5 + 32;
 
+        if (C < 10)
+        {
+         Console.WriteLine("Cold");
+        }
+        else if (C <=30)
+        {
+         Console.WriteLine("Mild");
+        }
+        else 
+        {
+         Console.WriteLine("Hot");
+        }
+        Console.WriteLine("Weather in Fahrenheit is:" +F);
 
 
 
