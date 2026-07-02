@@ -149,7 +149,7 @@ class Program
    Console.WriteLine("The final bill is:"+finalbill);*/
 
   // Task 9:Day Name Finder
-  Console.WriteLine("Enter a number :");
+  /*Console.WriteLine("Enter a number :");
   int week = int.Parse(Console.ReadLine());
 
   switch (week)
@@ -178,7 +178,58 @@ class Program
    default:
     Console.WriteLine("invalid Day number");
     break;
+  }*/
+
+  //Task 10:Mini Calculator
+  Console.WriteLine("Enter first number:");
+  int numberA = int.Parse(Console.ReadLine());
+  Console.WriteLine("Enter second number:");
+  int numberB = int.Parse(Console.ReadLine());
+  
+  Console.WriteLine("Enter the operation:");
+  char Operator = char.Parse(Console.ReadLine());
+
+  switch (Operator)
+  {
+   case '+':
+    Console.WriteLine("The answer is:"+((numberA + numberB)));
+    break;
+   case '-':
+    Console.WriteLine("The answer is:" + ((numberA - numberB)));
+    break;
+   case '*':
+    Console.WriteLine("The answer is:"+((numberA * numberB)));
+    break;
+   case '/':
+    if (numberB != 0)
+    {
+     Console.WriteLine("The answer is:"+((numberA / numberB)));
+    }
+    else
+    {
+     Console.WriteLine("Cannot divide by zero");
+    }
+    break;
+   case '%':
+    if (numberB != 0)
+    {
+     Console.WriteLine("The answer is:"+((numberA % numberB)));
+    }
+    else
+    {
+     Console.WriteLine("Cannot divide by zero");
+    }
+    break;
+   
+   default:
+    Console.WriteLine("invalid operato");
+    break;
   }
+  
+
  }
 
 }
+
+
+
