@@ -84,8 +84,9 @@ class Program
          Console.WriteLine("invalid grade");
            break;
        }*/
+       
         // Task 6:Temperature Converter
-        Console.WriteLine("Enter Temp in Celsius:");
+        /*Console.WriteLine("Enter Temp in Celsius:");
         float C = float.Parse(Console.ReadLine());
         
         float F = C * 9 / 5 + 32;
@@ -102,7 +103,34 @@ class Program
         {
          Console.WriteLine("Hot");
         }
-        Console.WriteLine("Weather in Fahrenheit is:" +F);
+        Console.WriteLine("Weather in Fahrenheit is:" +F);*/
+        
+        // Task 7:Movie Ticket Pricing
+        Console.WriteLine("Enter your age:");
+        int age = int.Parse(Console.ReadLine());
+        
+        string children;
+        string Adult;
+        string Senior;
+
+        int price;
+
+        if (age <= 12)
+        {
+         Console.WriteLine("ForChlidren Catogery the price is : 2 OMR ");
+        }
+        else if (age <=59)
+        { 
+         Console.WriteLine("For Adult Catogery the price is : 5 OMR ");
+
+        }
+        else
+        {
+         Console.WriteLine("For Senior Catogery the price is : 3 OMR ");
+
+        }
+        
+
 
 
 
