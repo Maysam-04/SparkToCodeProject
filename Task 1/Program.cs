@@ -5,17 +5,17 @@ class Program
  static void Main(string[] args)
  {
   //Task1:Personal Info Card
-  /* const String Name = "Adam";
+   const String Name = "Adam";
    Console.Write(" Name: " + Name);
    const int Age = 22;
    Console.Write(" Age: " + Age);
    const double Height = 16.9;
    Console.Write(" Height: " + Height);
    const bool Student = true;
-   Console.Write(" Student: " + Student);*/
+   Console.Write(" Student: " + Student);
 
   //Task2:  Rectangle Calculator
-  /* Console.WriteLine("Enter the Lenght of Rectangle:");
+  Console.WriteLine("Enter the Lenght of Rectangle:");
    int length = int.Parse(Console.ReadLine());
 
    Console.WriteLine("Enter the Width of Rectangle:");
@@ -24,10 +24,10 @@ class Program
    int Area = length * Width;
    int Perimeter = 2* (length +Width);
 
-   Console.WriteLine("The area is: " +Area + " The perimeter is: " + Perimeter);*/
+   Console.WriteLine("The area is: " +Area + " The perimeter is: " + Perimeter);
 
   //Task 3:Even or Odd Checker
-  /*Console.WriteLine("Enter a num:");
+  Console.WriteLine("Enter a num:");
   int num = int.Parse(Console.ReadLine());
   if (num % 2 == 0)
   {
@@ -40,27 +40,27 @@ class Program
   else
   {
    Console.WriteLine("It is neither Even nor Odd");
-  }*/
+  }
 
   //Task 4:Voting Eligibility
-  /*Console.WriteLine("Enter your age:");
-  int age = int.Parse(Console.ReadLine());
+  Console.WriteLine("Enter your age:");
+  int userAge = int.Parse(Console.ReadLine());
   Console.WriteLine(" Do you have vaild national ID (yes/no)");
   String nationalID = Console.ReadLine();
 
   bool validID = nationalID == "yes";
 
-  if (age >= 18 && validID )
+  if (Age >= 18 && validID )
   {
    Console.WriteLine("eligible to vote");
   }
   else
   {
    Console.WriteLine("Not eligible to vote");
-  }*/
+  }
 
   // Task 5:Grade Letter Lookup
-  /*Console.WriteLine("Enter a grade:");
+  Console.WriteLine("Enter a grade:");
   char grade = char.Parse(Console.ReadLine());
 
   switch (grade)
@@ -83,10 +83,10 @@ class Program
    default:
     Console.WriteLine("invalid grade");
       break;
-  }*/
+  }
 
   // Task 6:Temperature Converter
-  /*Console.WriteLine("Enter Temp in Celsius:");
+  Console.WriteLine("Enter Temp in Celsius:");
   float C = float.Parse(Console.ReadLine());
 
   float F = C * 9 / 5 + 32;
@@ -103,10 +103,10 @@ class Program
   {
    Console.WriteLine("Hot");
   }
-  Console.WriteLine("Weather in Fahrenheit is:" +F);*/
+  Console.WriteLine("Weather in Fahrenheit is:" +F);
 
   // Task 7:Movie Ticket Pricing
-  /* Console.WriteLine("Enter your age:");
+  Console.WriteLine("Enter your age:");
    int age = int.Parse(Console.ReadLine());
    if (age <= 12)
    {
@@ -121,10 +121,10 @@ class Program
    {
     Console.WriteLine("For Senior Catogery the price is : 3 OMR ");
 
-   }*/
+   }
 
   //Task8:Restaurant Bill with Membership Discount
-  /* Console.WriteLine("Enter the total bill :");
+  Console.WriteLine("Enter the total bill :");
    float bill = float.Parse(Console.ReadLine());
 
    Console.WriteLine("Are you from the loyalty member (yes/no) :");
@@ -146,10 +146,10 @@ class Program
 
    Console.WriteLine("The original bill is:" +bill);
    Console.WriteLine("The discount is: "+discount);
-   Console.WriteLine("The final bill is:"+finalbill);*/
+   Console.WriteLine("The final bill is:"+finalbill);
 
   // Task 9:Day Name Finder
-  /*Console.WriteLine("Enter a number :");
+  Console.WriteLine("Enter a number :");
   int week = int.Parse(Console.ReadLine());
 
   switch (week)
@@ -178,7 +178,7 @@ class Program
    default:
     Console.WriteLine("invalid Day number");
     break;
-  }*/
+  }
 
   //Task 10:Mini Calculator
   Console.WriteLine("Enter first number:");
