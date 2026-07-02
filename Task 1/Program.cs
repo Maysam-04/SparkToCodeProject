@@ -106,15 +106,8 @@ class Program
         Console.WriteLine("Weather in Fahrenheit is:" +F);*/
         
         // Task 7:Movie Ticket Pricing
-        Console.WriteLine("Enter your age:");
+       /* Console.WriteLine("Enter your age:");
         int age = int.Parse(Console.ReadLine());
-        
-        string children;
-        string Adult;
-        string Senior;
-
-        int price;
-
         if (age <= 12)
         {
          Console.WriteLine("ForChlidren Catogery the price is : 2 OMR ");
@@ -128,8 +121,34 @@ class Program
         {
          Console.WriteLine("For Senior Catogery the price is : 3 OMR ");
 
-        }
-        
+        }*/
+       
+       //Task8:Restaurant Bill with Membership Discount
+       Console.WriteLine("Enter the total bill :");
+       float bill = float.Parse(Console.ReadLine());
+       
+       Console.WriteLine("Are you from the loyalty member (yes/no) :");
+       String loyalty = Console.ReadLine();
+
+       bool isloyalty = loyalty == "yes";
+
+       float discount = 0;
+       if (bill >20 &&  isloyalty)
+       {
+        discount = bill * 15 / 100;
+       }
+       else
+       {
+        Console.WriteLine(" no discount");
+       }
+       
+        float finalbill = bill - discount;
+       
+       Console.WriteLine("The original bill is:" +bill);
+       Console.WriteLine("The discount is: "+discount);
+       Console.WriteLine("The final bill is:"+finalbill);
+
+
 
 
 
