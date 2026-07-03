@@ -10,10 +10,14 @@ class Program
         Console.Write("Enter a starting number:");
         int startNumber = int.Parse(Console.ReadLine());
 
-        for (int n = startNumber; startNumber >= 1; startNumber--)
+        for (int n = startNumber; n >= 1; n--)
         {
-            Console.WriteLine( startNumber); 
+            Console.WriteLine(n); 
         }
         Console.WriteLine("Liftoff!" );
+        ///////////////////////////////////////
+        
+        // Task 2 - Sum of Numbers 1 to N
+        Console.WriteLine("");
     }
 }
