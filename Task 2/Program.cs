@@ -86,7 +86,7 @@ class Program
         ////////////////////////////////////
         
         //Task 6 - Safe Division Calculator
-        try
+       /* try
         {
             Console.WriteLine("Enter the first number:");
             int firstNumber = int.Parse(Console.ReadLine());
@@ -104,8 +104,45 @@ class Program
         catch (FormatException )
         {
             Console.WriteLine( "number is invalid");
+        }*/
+        //////////////////////////////////////////
+        
+        //Task 7 - Repeating Menu with Exit Option
+        int choice=0;
+        while (choice != 3)
+        {
+            Console.WriteLine("1.Hello");
+            Console.WriteLine("2.Good Morning");
+            Console.WriteLine("3.exit");
+            
+            try
+            { 
+                Console.Write("Enter choice num:");
+            choice = int.Parse(Console.ReadLine());
+            
+            switch (choice)
+            {   
+                case 1:
+                    Console.WriteLine("Hello");
+                    break;
+                case 2:
+                    Console.WriteLine("Good Morning");
+                    break;
+                case 3:
+                    Console.WriteLine("exit");
+                    break;
+                default:
+                    Console.WriteLine("Incorrect choice");
+                    break;
+            }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("invalid number");
+            }
         }
         
+
     }
 }
 
