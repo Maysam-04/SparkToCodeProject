@@ -31,16 +31,27 @@ class Program
        //////////////////////////////////////////
        
        // Task 3 - Multiplication Table
-       Console.Write("Enter a number:");
+      /* Console.Write("Enter a number:");
        int number = int.Parse(Console.ReadLine());
        
        int i;
        for (i = 1; i <= 10; i++)
        {
            Console.WriteLine( number + "*" +i +"=" + number* i ); 
-       }
-       
-       
-
+       }*/
+      ///////////////////////////////////////////////////////
+      
+      // Task 4 - Password Retry
+      string CorrectPassword = "Spark 2026";
+      Console.WriteLine("Enter the password :");
+      string password = Console.ReadLine();
+      while (password != CorrectPassword)
+      {
+          Console.WriteLine("Incorrect password , try again");
+          Console.WriteLine("Enter the password :");
+          password = Console.ReadLine();
+      }
+      Console.WriteLine("Access Granted");
+      
     }
 }
