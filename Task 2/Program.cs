@@ -18,7 +18,7 @@ class Program
         ///////////////////////////////////////
         
         // Task 2 - Sum of Numbers 1 to N
-        Console.Write("Enter a whole number N :");
+       /* Console.Write("Enter a whole number N :");
         int wholeNumber = int.Parse(Console.ReadLine());
 
         int sum = 0;
@@ -27,6 +27,20 @@ class Program
         {
             sum = sum + N;
         }
-        Console.WriteLine(sum);
+        Console.WriteLine(sum);*/
+       //////////////////////////////////////////
+       
+       // Task 3 - Multiplication Table
+       Console.Write("Enter a number:");
+       int number = int.Parse(Console.ReadLine());
+       
+       int i;
+       for (i = 1; i <= 10; i++)
+       {
+           Console.WriteLine( number + "*" +i +"=" + number* i ); 
+       }
+       
+       
+
     }
 }
