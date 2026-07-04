@@ -58,7 +58,7 @@ class Program
         }*/
         /////////////////////////////////////////
         //Task 5 - Number Guessing Game
-        {
+        /*{
             int SecretNum = 42;
             int guess;
             int attempts = 0;
@@ -82,7 +82,30 @@ class Program
             } while (guess != SecretNum);
             Console.WriteLine("Attempts:" + attempts);
 
+        }*/
+        ////////////////////////////////////
+        
+        //Task 6 - Safe Division Calculator
+        try
+        {
+            Console.WriteLine("Enter the first number:");
+            int firstNumber = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second number:");
+            int secondNumber = int.Parse(Console.ReadLine());
+            
+            int div = firstNumber / secondNumber;
+            Console.WriteLine("Result is :"+div);
         }
+        catch (DivideByZeroException )
+        {
+            Console.WriteLine( "second number is zero");
+            
+        }
+        catch (FormatException )
+        {
+            Console.WriteLine( "number is invalid");
+        }
+        
     }
 }
 
