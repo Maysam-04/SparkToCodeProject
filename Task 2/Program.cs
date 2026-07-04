@@ -12,46 +12,97 @@ class Program
 
         for (int n = startNumber; n >= 1; n--)
         {
-            Console.WriteLine(n); 
+            Console.WriteLine(n);
         }
         Console.WriteLine("Liftoff!" );*/
         ///////////////////////////////////////
-        
-        // Task 2 - Sum of Numbers 1 to N
-       /* Console.Write("Enter a whole number N :");
-        int wholeNumber = int.Parse(Console.ReadLine());
 
-        int sum = 0;
-        int N; 
-        for ( N = 1; N <= wholeNumber; N++)
+        // Task 2 - Sum of Numbers 1 to N
+        /* Console.Write("Enter a whole number N :");
+         int wholeNumber = int.Parse(Console.ReadLine());
+
+         int sum = 0;
+         int N;
+         for ( N = 1; N <= wholeNumber; N++)
+         {
+             sum = sum + N;
+         }
+         Console.WriteLine(sum);*/
+        //////////////////////////////////////////
+
+        // Task 3 - Multiplication Table
+        /* Console.Write("Enter a number:");
+         int number = int.Parse(Console.ReadLine());
+
+         int i;
+         for (i = 1; i <= 10; i++)
+         {
+             Console.WriteLine( number + "*" +i +"=" + number* i );
+         }*/
+        ///////////////////////////////////////////////////////
+
+        // Task 4 - Password Retry
+        /*string CorrectPassword = "Spark 2026";
+        Console.WriteLine("Enter the password :");
+        string password = Console.ReadLine();
+        while (password != CorrectPassword)
         {
-            sum = sum + N;
+            Console.WriteLine("Incorrect password , try again");
+            Console.WriteLine("Enter the password :");
+            password = Console.ReadLine();
         }
-        Console.WriteLine(sum);*/
-       //////////////////////////////////////////
-       
-       // Task 3 - Multiplication Table
-      /* Console.Write("Enter a number:");
-       int number = int.Parse(Console.ReadLine());
-       
-       int i;
-       for (i = 1; i <= 10; i++)
-       {
-           Console.WriteLine( number + "*" +i +"=" + number* i ); 
-       }*/
-      ///////////////////////////////////////////////////////
-      
-      // Task 4 - Password Retry
-      string CorrectPassword = "Spark 2026";
-      Console.WriteLine("Enter the password :");
-      string password = Console.ReadLine();
-      while (password != CorrectPassword)
-      {
-          Console.WriteLine("Incorrect password , try again");
-          Console.WriteLine("Enter the password :");
-          password = Console.ReadLine();
-      }
-      Console.WriteLine("Access Granted");
-      
+
+        Console.WriteLine("Access Granted");
+        {
+
+        }*/
+        /////////////////////////////////////////
+        //Task 5 - Number Guessing Game
+        {
+            int SecretNum = 42;
+            int guess;
+            int attempts = 0;
+
+            do
+            {
+                Console.Write("Guess the number: ");
+                guess = int.Parse(Console.ReadLine());
+                attempts++;
+
+
+                if (guess > SecretNum)
+                {
+                    Console.WriteLine(" too high");
+                }
+                else if (guess < SecretNum)
+                {
+                    Console.WriteLine(" too low");
+                }
+
+            } while (guess != SecretNum);
+            Console.WriteLine("Attempts:" + attempts);
+
+        }
     }
 }
+
+
+
+
+    
+
+   
+
+
+
+
+
+    
+
+
+    
+
+
+
+    
+
