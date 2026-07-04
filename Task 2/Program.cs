@@ -108,7 +108,7 @@ class Program
         //////////////////////////////////////////
         
         //Task 7 - Repeating Menu with Exit Option
-        int choice=0;
+       /* int choice=0;
         while (choice != 3)
         {
             Console.WriteLine("1.Hello");
@@ -140,11 +140,29 @@ class Program
             {
                 Console.WriteLine("invalid number");
             }
-        }
+        }*/
         
+     ////////////////////////////////////////////////
+     
+     //Task 8 - Sum of Even Numbers Only
+      Console.WriteLine("Enter a number:");
+      int number = int.Parse(Console.ReadLine());
+      int sum = 0;
+      int N;
+      for (N = 1; N <= number; N++)
+      {
+          if (N % 2 == 0)
+          {
+              sum = sum + N;
+          
+          }
+      }
+      Console.WriteLine("The final sum is : " + sum);
+
 
     }
-}
+    }
+
 
 
 
