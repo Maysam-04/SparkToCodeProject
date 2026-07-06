@@ -63,7 +63,7 @@ class Program
         
         //Task 5 - Grade Rounding System
         
-        Console.Write("Enter your exam score: ");
+       /* Console.Write("Enter your exam score: ");
         double examscore = double.Parse(Console.ReadLine());
 
         double roundedScore = Math.Round(examscore);
@@ -77,7 +77,32 @@ class Program
             Console.WriteLine(" fail");
         }
 
-        Console.WriteLine("the rounded score is " + roundedScore);
+        Console.WriteLine("the rounded score is " + roundedScore);*/
+       
+       ////////////////////////////////////////////////////////////////
+       
+       // Task 6 - Password Strength Checker
+       Console.WriteLine("Enter a password:");
+       string password = Console.ReadLine();
+       
+       int passwordLength = password.Length;
+       bool eightcharacterslong= passwordLength == 8;
+       bool containsforbiddenword = password.ToLower().Contains("password");
+       
+       if ( eightcharacterslong && !containsforbiddenword)
+       {
+           Console.WriteLine("strong: Password  satisfies the condition.");
+       }
+       else if ( !eightcharacterslong)
+       {
+           
+           Console.WriteLine("weak: password must be at least 8 characters long.");
+       }
+       else if ( containsforbiddenword)
+       {
+           Console.WriteLine("weak: Password contains forbidden words.");
+       }
+
     }
 }
 
