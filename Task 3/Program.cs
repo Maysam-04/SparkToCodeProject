@@ -8,7 +8,7 @@ class Program
     {
         // Task 1 - Absolute Difference
         
-        Console.Write("Enter a  first number: ");
+       /* Console.Write("Enter a  first number: ");
         int num1 = int.Parse(Console.ReadLine());
         Console.Write("Enter a  second number: ");
         int num2 = int.Parse(Console.ReadLine());
@@ -16,7 +16,23 @@ class Program
         int subtraction= num2-num1;
         
         int subtractionresult = Math.Abs(subtraction);
-        Console.WriteLine("The final result is :"+subtractionresult);
+        Console.WriteLine("The final result is :"+subtractionresult);*/
+       //////////////////////////////////////////////////////////////////////
+       
+       //Task 2 - Power & Root Explorer
+       
+       Console.WriteLine("Enter a number: ");
+        int powernumber = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter another number: ");
+        int sqrnumber = int.Parse(Console.ReadLine());
+        
+        double result1= Math.Pow(powernumber,sqrnumber);
+        double result2 = Math.Sqrt(sqrnumber);
+        
+        Console.Write("the final result of power is :"+result1 + " & " + "the final result of sqr is:" +result2);
+        
+        
         
     }
 }
