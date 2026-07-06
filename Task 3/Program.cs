@@ -107,7 +107,7 @@ class Program
        
        //Task 7 - Clean Name Comparator
        
-       Console.WriteLine("enter the same name:");
+       /*Console.WriteLine("enter the same name:");
        string nameonce = Console.ReadLine();
        
        Console.WriteLine("enter the same name:");
@@ -124,7 +124,33 @@ class Program
        else
        {
            Console.WriteLine("It doesn't match");
+       }*/
+       
+       ////////////////////////////////////////////////////////
+       
+       //Task 8 - Membership Expiry Checker
+       Console.WriteLine("Enter the membership date :");
+       string startdate = Console.ReadLine();
+       
+       Console.WriteLine("Enter the number valid membership days :");
+       int vaildmembershipday = int.Parse(Console.ReadLine());
+       
+       DateTime startdateinput = DateTime.Parse(startdate);
+       DateTime enddateinput = startdateinput.AddDays(vaildmembershipday);
+       
+       DateTime today= DateTime.Today;
+
+       if (enddateinput >= today)
+       {
+           Console.WriteLine(" Active:"+enddateinput.ToString("MM/dd/yyyy"));
        }
+       else
+       {
+           Console.WriteLine(" Inactive:" + enddateinput.ToString("MM/dd/yyyy"));;
+       }
+       
+       
+       
     }
 }
 
