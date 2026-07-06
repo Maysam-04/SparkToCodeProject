@@ -36,7 +36,7 @@ class Program
         
         // Task 3 - Name Formatter
         
-        Console.Write("Enter your full name: ");
+        /*Console.Write("Enter your full name: ");
         String Username=Console.ReadLine();
       
         String upperedname= Username.ToUpper();
@@ -44,8 +44,20 @@ class Program
         int length = Username.Length;
         Console.WriteLine("the Uppered full name is :" + upperedname);
         Console.WriteLine("the lowered full name is :" + loweredname);
-        Console.WriteLine("the length of the full name is :" + length);
+        Console.WriteLine("the length of the full name is :" + length);*/
         
+        /////////////////////////////////////////////////////////////
+        
+        // Task 4 - Subscription End Date
+        
+        Console.Write("Enter the number of days of free trial: ");
+        int freetrialnumber = int.Parse(Console.ReadLine());
+        
+        DateTime startDate = DateTime.Today;
+        DateTime endDate = startDate.AddDays(freetrialnumber);
+        
+        String date = endDate.ToString("yyyy/MM/dd");
+        Console.WriteLine(date);
     }
 }
 
