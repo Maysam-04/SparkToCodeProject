@@ -82,7 +82,7 @@ class Program
        ////////////////////////////////////////////////////////////////
        
        // Task 6 - Password Strength Checker
-       Console.WriteLine("Enter a password:");
+       /*Console.WriteLine("Enter a password:");
        string password = Console.ReadLine();
        
        int passwordLength = password.Length;
@@ -101,8 +101,30 @@ class Program
        else if ( containsforbiddenword)
        {
            Console.WriteLine("weak: Password contains forbidden words.");
-       }
+       }*/
 
+       //////////////////////////////////////////////////////////////////
+       
+       //Task 7 - Clean Name Comparator
+       
+       Console.WriteLine("enter the same name:");
+       string nameonce = Console.ReadLine();
+       
+       Console.WriteLine("enter the same name:");
+       string nametwice = Console.ReadLine();
+       
+       string trimmedName = nameonce.Trim().ToUpper();
+       string trimmedNametwice = nametwice.Trim().ToUpper();
+       
+
+       if (trimmedName == trimmedNametwice)
+       {
+           Console.WriteLine("It match");
+       }
+       else
+       {
+           Console.WriteLine("It doesn't match");
+       }
     }
 }
 
