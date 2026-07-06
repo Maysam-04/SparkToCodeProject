@@ -21,7 +21,7 @@ class Program
        
        //Task 2 - Power & Root Explorer
        
-       Console.WriteLine("Enter a number: ");
+       /*Console.WriteLine("Enter a number: ");
         int powernumber = int.Parse(Console.ReadLine());
         
         Console.WriteLine("Enter another number: ");
@@ -30,9 +30,21 @@ class Program
         double result1= Math.Pow(powernumber,sqrnumber);
         double result2 = Math.Sqrt(sqrnumber);
         
-        Console.Write("the final result of power is :"+result1 + " & " + "the final result of sqr is:" +result2);
+        Console.Write("the final result of power is :"+result1 + " & " + "the final result of sqr is:" +result2);*/
         
+        ////////////////////////////////////////////////////////////////////////
         
+        // Task 3 - Name Formatter
+        
+        Console.Write("Enter your full name: ");
+        String Username=Console.ReadLine();
+      
+        String upperedname= Username.ToUpper();
+        String loweredname= Username.ToLower();
+        int length = Username.Length;
+        Console.WriteLine("the Uppered full name is :" + upperedname);
+        Console.WriteLine("the lowered full name is :" + loweredname);
+        Console.WriteLine("the length of the full name is :" + length);
         
     }
 }
