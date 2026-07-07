@@ -27,6 +27,20 @@ class Program
        double fahrenheit = (celsius * 9 / 5) + 32;
        return fahrenheit;
    }
+
+   /// ///////////////////////////////////////////////////////////
+
+   //Task 4 - Fixed Menu Display Function
+   public static void DisplayMenu()
+   {
+       Console.WriteLine("DisplayMenu:");
+       Console.WriteLine("1. Start");
+       Console.WriteLine("2. Help");
+       Console.WriteLine("3. Exit");
+       
+   }
+   
+   
    
     static void Main(string[] args)
     {
@@ -48,6 +62,10 @@ class Program
         double fahrenheit = CelsiusToFahrenheit(Celsius);
         Console.WriteLine(fahrenheit);
         
+        /////////////////////////////////////////////////
+
+         DisplayMenu();
+
     }
         
         
