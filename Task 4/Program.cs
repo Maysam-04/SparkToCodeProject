@@ -94,6 +94,19 @@ class Program
           
   }
 
+  /// //////////////////////////////////////////////////////
+
+  //Task 8 - Countdown Function
+  public static void Countdown(int countdownnumber)
+  {
+      int i;
+     
+      for (i = countdownnumber; i >=1  ; i--)
+      {
+         Console.WriteLine(i);
+      }
+  }
+
    
     static void Main(string[] args)
     {
@@ -156,6 +169,12 @@ class Program
         string gradeLetter = GetGradeLetter(score);
 
         Console.Write(gradeLetter);
+        
+        ///////////////////////////////////////////////////
+        
+        Console.WriteLine("Enter a number:");
+        int n = int.Parse(Console.ReadLine());
+        Countdown(n);
     }
         
         
