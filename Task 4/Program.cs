@@ -15,9 +15,17 @@ class Program
    // Task 2 - Square Number Function
 
    public static int Square(int num)
+    {
+        int result = num * num;
+        return result;
+    }
+
+   //Task 3 - Celsius to Fahrenheit Function
+
+   public static double CelsiusToFahrenheit(double celsius)
    {
-       int result = num * num;
-       return result;
+       double fahrenheit = (celsius * 9 / 5) + 32;
+       return fahrenheit;
    }
    
     static void Main(string[] args)
@@ -31,6 +39,14 @@ class Program
         
         int result = Square(num);
         Console.WriteLine(result);
+        
+        /////////////////////////////////////////////
+        
+        Console.WriteLine("Enter a Celsius value:");
+        double Celsius = double.Parse(Console.ReadLine());
+        
+        double fahrenheit = CelsiusToFahrenheit(Celsius);
+        Console.WriteLine(fahrenheit);
         
     }
         
