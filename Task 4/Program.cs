@@ -53,7 +53,7 @@ class Program
 
    //Task 6 - Rectangle Area & Perimeter Functions
 
-   public static double CalculateArea(double length, double width)
+  public static double CalculateArea(double length, double width)
    {
        double Result1= length * width;
        return Result1;
@@ -64,6 +64,35 @@ class Program
        double Result2 = 2*(length +width) ;
        return Result2;
    }
+
+  /// /////////////////////////////////////////////////////////////
+
+  //Task 7 - Grade Letter Function
+  public static string GetGradeLetter(int grade)
+  {
+      if (grade <= 60)
+      {
+          Console.WriteLine("F");
+      }
+      else if (grade <= 69)
+      {
+          Console.WriteLine("D");
+      }
+      else if (grade <=79)
+      {
+          Console.WriteLine("C");
+      }
+      else if (grade <= 89)
+      {
+          Console.WriteLine("B");
+      }
+      else if (grade <=100)
+      {
+          Console.WriteLine("A");
+      }
+      return grade.ToString();
+          
+  }
 
    
     static void Main(string[] args)
@@ -118,6 +147,15 @@ class Program
         double Result2;
         Console.WriteLine( Result1 = CalculateArea(length, width));
         Console.WriteLine(Result2 = CalculatePerimeter(length, width));
+        
+        //////////////////////////////////////////////////////////////////
+        
+        Console.Write("Enter your score: ");
+        int score = int.Parse(Console.ReadLine());
+        
+        string gradeLetter = GetGradeLetter(score);
+
+        Console.Write(gradeLetter);
     }
         
         
