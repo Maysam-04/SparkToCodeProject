@@ -14,7 +14,7 @@ class Program
 
    // Task 2 - Square Number Function
 
-   public static int Square(int num)
+  public static int Square(int num)
     {
         int result = num * num;
         return result;
@@ -48,6 +48,23 @@ class Program
        return N % 2 == 0;
 
    }
+
+   /// ///////////////////////////////////////////////////////
+
+   //Task 6 - Rectangle Area & Perimeter Functions
+
+   public static double CalculateArea(double length, double width)
+   {
+       double Result1= length * width;
+       return Result1;
+   }
+
+   public static double CalculatePerimeter(double length, double width)
+   {
+       double Result2 = 2*(length +width) ;
+       return Result2;
+   }
+
    
     static void Main(string[] args)
     {
@@ -89,6 +106,18 @@ class Program
             
             Console.WriteLine("The number is odd");
         }
+        
+        ///////////////////////////////////////////////////
+        
+        Console.Write(" Enter a length: ");
+        double length = double.Parse(Console.ReadLine());
+        Console.Write(" Enter a width: ");
+        double width = double.Parse(Console.ReadLine());
+
+        double Result1;
+        double Result2;
+        Console.WriteLine( Result1 = CalculateArea(length, width));
+        Console.WriteLine(Result2 = CalculatePerimeter(length, width));
     }
         
         
