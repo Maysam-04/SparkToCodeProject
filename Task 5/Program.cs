@@ -39,7 +39,7 @@ class Program
        
        //Task 3 - Browsing History Stack
        
-       Stack<string> browserhistory = new Stack<string>();
+      Stack<string> browserhistory = new Stack<string>();
         Console.WriteLine("Enter 3 browser URL: ");
         browserhistory.Push (Console.ReadLine());
         browserhistory.Push (Console.ReadLine());
@@ -53,7 +53,7 @@ class Program
       
         // Task 4 - Customer Service Queue
         
-        Queue<string> waitingline = new Queue<string>();
+       Queue<string> waitingline = new Queue<string>();
         
         Console.WriteLine("enter 3 customer names:");
          waitingline.Enqueue(Console.ReadLine());
@@ -89,5 +89,39 @@ class Program
        Console.WriteLine("The highest result:"+highest);
        Console.WriteLine("The Average result:"+average);
 
+       /////////////////////////////////////////////////////
+       
+       // Task 6 - Filtered Shopping List
+       List<string> shoppinglist = new List<string>();
+       string item = "";
+       string done="done";
+       while (item !="done")
+       { 
+           Console.WriteLine("type done to terminate program:");
+            item = Console.ReadLine();
+           
+           if (item != "done")
+           {
+               shoppinglist.Add(Console.ReadLine());
+           }
+           
+           
+       }
+       Console.WriteLine("The list before removing the item:");
+       foreach (string shop in shoppinglist)
+       {
+           Console.WriteLine(shop);
+       }
+       Console.WriteLine("enter one item to be removed:");
+       string item2 = Console.ReadLine();
+       shoppinglist.Remove(item2);
+
+       Console.WriteLine("The list after removing the item is:");
+       foreach (string shop2 in shoppinglist)
+       {
+           Console.WriteLine(shop2);
+       }
     }
+
+       
 }
