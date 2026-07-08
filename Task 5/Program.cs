@@ -62,7 +62,32 @@ class Program
          
       Console.WriteLine(waitingline.Dequeue());
       
+       ////////////////////////////////////////////////////////////
        
+       // Task 5 - Array Grade Range
+       int[] Grades=new int[5];
+       int G;
+       for (G = 0; G < Grades.Length; G++)
+       {
+           Console.WriteLine(" Enter Grades");
+           Grades[G] = int.Parse(Console.ReadLine());
+       }
+       Array.Sort(Grades);
+       int lowest = Grades[0];
+       int highest= Grades[Grades.Length-1];
+
+       int total = 0;
+
+       for (int i = 0; i < Grades.Length; i++)
+       {
+           total += Grades[i];
+       }
        
+       float average = total / Grades.Length;
+       
+       Console.WriteLine("The total result:"+total);
+       Console.WriteLine("The highest result:"+highest);
+       Console.WriteLine("The Average result:"+average);
+
     }
 }
