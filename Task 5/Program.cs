@@ -40,17 +40,17 @@ class Program
        //Task 3 - Browsing History Stack
        
        Stack<string> browserhistory = new Stack<string>();
-       int B;
-       for (B = 0; B < 3; B++)
-       {
-           Console.WriteLine("Enter browser URL: ");
-           browserhistory.Push (Console.ReadLine());
-       }
-       
+        Console.WriteLine("Enter 3 browser URL: ");
+        browserhistory.Push (Console.ReadLine());
+        browserhistory.Push (Console.ReadLine());
+        browserhistory.Push (Console.ReadLine());
+        
        string Result= browserhistory.Pop();
        
        Console.WriteLine("simulate to press back " + Result);
 
-
+      
+       
+       
     }
 }
