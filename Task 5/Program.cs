@@ -23,8 +23,7 @@ class Program
         ////////////////////////////////////////////////////////
         
         // Task 2 - Dynamic To-Do List
-        
-        List <string> task = new List <string> ();
+       List <string> task = new List <string> ();
         int counter;
         for (counter = 0; counter <5; counter++)
         {
@@ -36,7 +35,21 @@ class Program
         {
             Console.WriteLine(taskitem);
         }
-
+       ////////////////////////////////////////////////
+       
+       //Task 3 - Browsing History Stack
+       
+       Stack<string> browserhistory = new Stack<string>();
+       int B;
+       for (B = 0; B < 3; B++)
+       {
+           Console.WriteLine("Enter browser URL: ");
+           browserhistory.Push (Console.ReadLine());
+       }
+       
+       string Result= browserhistory.Pop();
+       
+       Console.WriteLine("simulate to press back " + Result);
 
 
     }
