@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Task_5;
 
@@ -19,5 +20,24 @@ class Program
        {
            Console.WriteLine(i);
        }
+        ////////////////////////////////////////////////////////
+        
+        // Task 2 - Dynamic To-Do List
+        
+        List <string> task = new List <string> ();
+        int counter;
+        for (counter = 0; counter <5; counter++)
+        {
+            Console.WriteLine("enter the task:");
+            task.Add(Console.ReadLine());
+        }
+
+        foreach (string taskitem in task)
+        {
+            Console.WriteLine(taskitem);
+        }
+
+
+
     }
 }
