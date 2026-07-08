@@ -49,6 +49,18 @@ class Program
        
        Console.WriteLine("simulate to press back " + Result);
 
+      /////////////////////////////////////////////////////////////
+      
+        // Task 4 - Customer Service Queue
+        
+        Queue<string> waitingline = new Queue<string>();
+        
+        Console.WriteLine("enter 3 customer names:");
+         waitingline.Enqueue(Console.ReadLine());
+         waitingline.Enqueue(Console.ReadLine());
+         waitingline.Enqueue(Console.ReadLine());
+         
+      Console.WriteLine(waitingline.Dequeue());
       
        
        
