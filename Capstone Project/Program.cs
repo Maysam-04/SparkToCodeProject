@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
+
 namespace Capstone_Project;
 
 class Program
@@ -9,7 +11,8 @@ class Program
     static List<string> CustomerName = new List<string>();
     static List<int> NewAccountNum = new List<int>();
     static List<double> StartingBalance = new List<double>();
-    public static void AddAccount()
+    
+     static void AddAccount()
     
     {
         Console.WriteLine("enter customer name:");
@@ -41,10 +44,21 @@ class Program
         Console.WriteLine("Customer's Name:"+customerName);
         Console.WriteLine("Customer's AccountNum:"+accountNum );
         Console.WriteLine("StartingBalance:"+deposit);
+        
+        /////////////////////////////////////////////////////////////////////
+        
+        //Service 2 - Deposit Money
+        
+        // static void DepositMoney()
+       // {
+            
+       // }
+        
     }
         static void Main(string[] args)
         {
-            AddAccount();
+           AddAccount();
             
         }
+
     }
