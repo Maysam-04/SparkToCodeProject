@@ -109,8 +109,29 @@ class Program
         StartingBalance[index] -= withdrawlAmount;
         Console.WriteLine(" The updated balance:" + StartingBalance[index]);
     }
+
+    /// /////////////////////////////////////////////////////////////
+
+    // Service 4 - Show Balance
+    static void ShowBalance()
+    {
+        Console.WriteLine("Enter the acccountnumber:");
+        int acnumb = int.Parse(Console.ReadLine());
+        
+        int[]lookingforACCNUMB = new int[]{acnumb};
+        int index = lookingforACCNUMB.IndexOf(acnumb);
+        if (index == -1)
+        {
+            Console.WriteLine("You entered an invalid accnumber.");
+            return;
+        }
+        Console.WriteLine("Customer name:" + CustomerName[index]);
+        Console.WriteLine("Customer's AccountNum:" + NewAccountNum[index]);
+        Console.WriteLine("Balance:" + StartingBalance[index]);
+    }
+    /// /////////////////////////////////////////////////////
     
-    
+    //
     
 
     static void Main(string[] args)
@@ -118,6 +139,7 @@ class Program
         AddAccount();
         DepositMoney();
         WithdrawMoney();
+        ShowBalance();
 
     }
 }
