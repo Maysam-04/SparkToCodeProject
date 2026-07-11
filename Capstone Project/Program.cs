@@ -101,7 +101,7 @@ class Program
             return;
         }
 
-        if (StartingBalance[index] >= withdrawlAmount)
+        if (StartingBalance[index] < withdrawlAmount)
         {
             Console.WriteLine("You entered a different withdrawl amount.");
             return;
@@ -109,6 +109,9 @@ class Program
         StartingBalance[index] -= withdrawlAmount;
         Console.WriteLine(" The updated balance:" + StartingBalance[index]);
     }
+    
+    
+    
 
     static void Main(string[] args)
     {
