@@ -129,9 +129,49 @@ class Program
         Console.WriteLine("Customer's AccountNum:" + NewAccountNum[index]);
         Console.WriteLine("Balance:" + StartingBalance[index]);
     }
+
     /// /////////////////////////////////////////////////////
-    
-    //
+
+    //Service 5 - Transfer Amount
+    static void TransferAmount()
+    {
+        Console.WriteLine("Enter the sender's account number: ");
+        int senderAccountNum = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the receiver's account number: ");
+        int receiverAccountNum = int.Parse(Console.ReadLine());
+        
+        int[] findingoutsenderaccountnumber=new []{senderAccountNum};
+        
+        int senderindex= findingoutsenderaccountnumber.IndexOf(senderAccountNum);
+        if (senderindex == -1)
+        {
+            Console.WriteLine("You entered an invalid sender account number.");
+            return;
+        }
+        
+        int[] findingoutreceiveraccountnumber=new []{receiverAccountNum};
+        
+        int receiverindex =findingoutreceiveraccountnumber.IndexOf(receiverAccountNum);
+        if (receiverindex == -1)
+        {
+            Console.WriteLine("You entered an invalid receiver account number.");
+            return;
+        }
+        Console.WriteLine("Enter the transfer amount:");
+        double transferAmount = double.Parse(Console.ReadLine());
+        if (transferAmount > StartingBalance[senderindex])
+        {
+            Console.WriteLine("sender has sufficient balance");
+            return;
+        }
+        StartingBalance[senderindex] -= transferAmount;
+        StartingBalance[receiverindex] -= transferAmount;
+        
+        Console.WriteLine("Transfer successfully completed") ;
+        Console.WriteLine("Sender's updated Balance:" + StartingBalance[senderindex] );
+        Console.WriteLine("Receiver's updated Balance:" + StartingBalance[receiverindex] );
+       
+    }
     
 
     static void Main(string[] args)
@@ -140,6 +180,7 @@ class Program
         DepositMoney();
         WithdrawMoney();
         ShowBalance();
+        TransferAmount();
 
     }
 }
