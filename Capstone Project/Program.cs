@@ -195,6 +195,30 @@ class Program
         }
 
     }
+
+    /// ///////////////////////////////////////////////////////////
+
+    //Service 7- Searching by Customer Name
+    static void SearchingCustomersNames()
+    {
+        Console.WriteLine("enter your name: ");
+        string name = Console.ReadLine();
+
+        int C = 0;
+        for (C = 0; C < CustomerName.Count; C++)
+        {
+            if (CustomerName[C] == name)
+            {
+                Console.WriteLine("Customer Name:" + CustomerName[C]);
+                Console.WriteLine("Account Number:" + NewAccountNum[C]);
+                Console.WriteLine("Balance:" + StartingBalance[C]);
+            }
+            else if (CustomerName[C] != name)
+            {
+                Console.WriteLine("Customer Name is not found");
+            }
+        }
+    }
     
     
 
@@ -206,6 +230,7 @@ class Program
         ShowBalance();
         TransferAmount();
         ListAllAccounts();
+        SearchingCustomersNames();
 
     }
 }
