@@ -173,6 +173,30 @@ class Program
        
     }
     
+    /////////////////////////////////////////////
+    
+    // Service 6- Listing All Accounts
+    static void ListAllAccounts()
+    {
+        if (CustomerName.Count == 0)
+        {
+            Console.WriteLine("There are no customers account in the list.");
+            return;
+        }
+
+        Console.WriteLine("\n =========== ALL CUSTOMER ACCOUNT LIST==========");
+
+        int A;
+        for ( A=0; A < CustomerName.Count; A++)
+        {
+            Console.WriteLine("Customer Name:"+CustomerName[A]);
+            Console.WriteLine("Account Number"+NewAccountNum[A]);
+            Console.WriteLine("Balance:"+StartingBalance[A]);
+        }
+
+    }
+    
+    
 
     static void Main(string[] args)
     {
@@ -181,6 +205,7 @@ class Program
         WithdrawMoney();
         ShowBalance();
         TransferAmount();
+        ListAllAccounts();
 
     }
 }
