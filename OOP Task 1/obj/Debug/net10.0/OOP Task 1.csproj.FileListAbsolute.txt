@@ -1,0 +1,15 @@
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.AssemblyInfoInputs.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.AssemblyInfo.cs
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.csproj.CoreCompileInputs.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.sourcelink.json
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/bin/Debug/net10.0/OOP Task 1
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/bin/Debug/net10.0/OOP Task 1.deps.json
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/bin/Debug/net10.0/OOP Task 1.runtimeconfig.json
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/bin/Debug/net10.0/OOP Task 1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/bin/Debug/net10.0/OOP Task 1.pdb
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/refint/OOP Task 1.dll
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.pdb
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/OOP Task 1.genruntimeconfig.cache
+/Users/maysamalharthy/RiderProjects/SparkToCodeProject/OOP Task 1/obj/Debug/net10.0/ref/OOP Task 1.dll
