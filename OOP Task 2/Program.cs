@@ -93,8 +93,6 @@ public class Program
                 Console.WriteLine(" 4.View All Rooms ");
                 Console.WriteLine(" 5.View All Guests ");
                 Console.WriteLine(" 6.Search & Filter Rooms ");
-                Console.WriteLine(" 7.Guest & Booking Statistics ");
-                Console.WriteLine(" 8. Update Room Price ");
                 Console.WriteLine("16. Exit");
                 Console.Write("Choose an option: ");
                 int choice;
